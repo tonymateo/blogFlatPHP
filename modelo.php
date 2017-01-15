@@ -2,7 +2,7 @@
 
 function abrir_db()
 {
-	$enlace = new PDO("mysql:host=localhost;dbname=blog_superheroes", 'root');
+	$enlace = new PDO("mysql:host=localhost;dbname=blog_superheroes", 'root', 'toni');
 	return $enlace;
 
 }
