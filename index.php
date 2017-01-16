@@ -3,6 +3,7 @@
 //si me pasan un id muestro el detalle si no, muestro el todo
 require_once 'modelo.php';
 echo "programador 1 test";
+echo "hola soy el programador 2";
 if(isset($_GET['id'])){
 		require 'detalle.php';
 	}else{//compruebo que el id que ha escrito existe en la base de datos
